@@ -18,6 +18,8 @@
         "execa":            "5.1.1",
         "cross-zip":        "4.0.0",
         "shelljs":          "0.8.5"
+		"node-addon-api": "^7.0.0",
+		"pkg-prebuilds": "^0.2.1"
     },
     "devDependencies": {
         "shx":              "0.3.4"
@@ -26,6 +28,7 @@
         "install":          "node ndi.js && node-gyp rebuild",
         "build":            "node-gyp rebuild",
         "test":             "node scratch/scratchVersion.js",
+		"rebuild": 			"node-gyp clean configure build",
         "clean":            "shx rm -rf ndi build"
     }
 }
