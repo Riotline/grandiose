@@ -6,7 +6,7 @@ https://www.ndi.tv/
 This module will allow a Node.JS program to find, receive and send NDI(tm) video, audio and metadata streams over IP networks. All calls a asynchronous and use Javascript promises with all of the underlying work of NDI running on separate threads from the event loop.
 
 NDI(tm) is a realisation of a grand vision for what IP media streams should and can be, hence a steampunk themed name of _gra-NDI-ose_.
-
+ 
 Fork Information
 ----------------
 
